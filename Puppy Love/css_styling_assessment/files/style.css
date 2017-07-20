@@ -1,0 +1,122 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body{
+  font-family: helvetica, arial, sans-serif;
+  font-size: 90%;
+  line-height: 1.6;
+  background-image: url(img/bg.jpg);
+}
+
+body > div{
+  width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffd24a;
+  padding: 1px;
+  box-shadow: 0 0 6px rgba( 0, 0, 0, 0.2 );
+}
+
+#site_header{
+  background-color: #ff8523;
+  border: 1px solid #ffd24a;
+  border-radius: 2px;
+  padding: 15px;
+}
+
+#logo{
+  padding: 15px;
+}
+
+.main_navigation{
+  padding: 15px;
+}
+
+.main_navigation a{
+  padding: .5em 2em;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+}
+
+#page_content{
+  background-color: white;
+  border-top: 0;
+  border-right: 1px solid #ffd24a;
+  border-bottom: 1px solid #ffd24a;
+  border-left: 1px solid #ffd24a;
+  border-radius: 2px;
+  padding: 25px;
+  margin: 0 1px;
+}
+
+ul{
+  font-weight: bold;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #dddddd;
+}
+
+h2{
+  color: #1fabe5;
+}
+
+h3{
+  color: #1fabe5;
+}
+
+table{
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+td{
+  padding: 5px;
+  border: 1px solid #046c97;
+}
+
+td > img{
+  height: 50px;
+  width: 50px;
+}
+
+thead{
+  background-color: #1fabe5;
+  font-weight: normal;
+  color: white;
+  padding: 10px;
+  border: 2px solid #046c97;
+}
+
+form{
+  width: 100%;
+  height: auto;
+  background-color: ##eee;
+  border: 1px solid ##eee;
+
+}
+
+form > div{
+  #name{
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    background-color: #ff8523;
+    
+  }
+}
