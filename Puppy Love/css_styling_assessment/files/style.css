@@ -13,14 +13,14 @@ colors:
     dark blue - #046c97
 */
 
-body{
+body {
   font-family: helvetica, arial, sans-serif;
   font-size: 90%;
   line-height: 1.6;
   background-image: url(img/bg.jpg);
 }
 
-body > div{
+body > div {
   width: 760px;
   margin-left: auto;
   margin-right: auto;
@@ -29,22 +29,22 @@ body > div{
   box-shadow: 0 0 6px rgba( 0, 0, 0, 0.2 );
 }
 
-#site_header{
+#site_header {
   background-color: #ff8523;
   border: 1px solid #ffd24a;
   border-radius: 2px;
   padding: 15px;
 }
 
-#logo{
+#logo {
   padding: 15px;
 }
 
-.main_navigation{
+.main_navigation {
   padding: 15px;
 }
 
-.main_navigation a{
+.main_navigation a {
   padding: .5em 2em;
   text-decoration: none;
   border: 1px solid white;
@@ -53,7 +53,7 @@ body > div{
   font-weight: bold;
 }
 
-#page_content{
+#page_content {
   background-color: white;
   border-top: 0;
   border-right: 1px solid #ffd24a;
@@ -64,38 +64,38 @@ body > div{
   margin: 0 1px;
 }
 
-ul{
+ul {
   font-weight: bold;
   padding-bottom: 20px;
   border-bottom: 4px solid #dddddd;
 }
 
-h2{
+h2 {
   color: #1fabe5;
 }
 
-h3{
+h3 {
   color: #1fabe5;
 }
 
-table{
+table {
   width: 100%;
   height: auto;
   padding: 5px;
   border-collapse: collapse;
 }
 
-td{
+td {
   padding: 5px;
   border: 1px solid #046c97;
 }
 
-td > img{
+td > img {
   height: 50px;
   width: 50px;
 }
 
-thead{
+thead {
   background-color: #1fabe5;
   font-weight: normal;
   color: white;
@@ -103,20 +103,49 @@ thead{
   border: 2px solid #046c97;
 }
 
-form{
-  width: 100%;
+form {
   height: auto;
-  background-color: ##eee;
-  border: 1px solid ##eee;
-
+  padding: 10px;
+  background: #eee;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-form > div{
-  #name{
-    font-style: normal;
-    font-weight: bold;
-    color: white;
-    background-color: #ff8523;
-    
-  }
+.name {
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  background: #ff8523;
+  border: 2px solid #ff8523;
+  height: 50px;
+  margin: 0;
+  border-radius: 5px;
+  padding-left: 100px;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+
+.city_container {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.bio {
+  font-weight: bold;
+  margin: 10px
+}
+
+#submit_button{
+  width: 80px;
+  height: 40px;
+  margin: 10px;
+  border: 1px solid #1fabe5;
+  border-radius: 4px;
+  background: #1fabe5;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
 }

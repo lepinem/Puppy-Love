@@ -18,7 +18,7 @@ Input Border Bottom (Focus): #967343
 footer: #3b3d33*/
 
 
-body{
+body {
   margin: 0 auto;
   padding: 0;
   background: #F2F1E8;
@@ -26,12 +26,12 @@ body{
   font-family: 'Merriweather',serif;
 }
 
-header{
+header {
   display: flex;
   align-items: center;
 }
 
-.header{
+.header {
   width: 100%;
   height: auto;
   position: fixed;
@@ -41,57 +41,57 @@ header{
   z-index: 1;
 }
 
-#logo{
+#logo {
   width: 70px;
   height: 100%;
 }
 
-nav{
+nav {
   width: 100%;
   font-family: 'Roboto',sans-serif;
   display: flex;
   justify-content: center;
 }
 
-#navigation{
+#navigation {
   color: #2B2F26;
 }
 
-#navigation a{
+#navigation a {
   color: #968772;
   padding: 30px;
 }
 
-#navigation a:hover{
+#navigation a:hover {
   color: #CD5D67;
 }
 
-h1{
+h1 {
   font-size: 70px;
   font-weight: normal;
   margin-top: 125px;
   margin-bottom: 10px;
 }
 
-h2{
+h2 {
   font-size: 40px;
   font-weight: lighter;
   margin-top: 10px;
   margin-bottom: 50px;
 }
 
-h3{
+h3 {
   font-size: 25px;
   font-weight: lighter;
 }
 
-.everything{
+.everything {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.title{
+.title {
   width: 100%;
 }
 
@@ -100,59 +100,59 @@ img {
   height: 100%;
 }
 
-.images{
+.images {
   width: 100%;
   margin: 5px;
 }
 
-.row1{
+.row1 {
   display: flex;
   width: 100%;
 }
 
-#p1{
+#p1 {
   position: relative;
   flex: 3;
   margin: 5px;
 }
 
-#p2{
+#p2 {
   position: relative;
   flex: 1;
   margin: 5px;
 }
 
-#p3{
+#p3 {
   position: relative;
   flex: 1;
   margin: 5px;
 }
 
-.row2{
+.row2 {
   display: flex;
   width: 100%;
   height: 50%;
 }
 
-#p4{
+#p4 {
   position: relative;
   flex: 1;
   margin: 5px;
 }
 
-#p5{
+#p5 {
   position: relative;
   flex: 1;
   margin: 5px;
 }
 
-#p6{
+#p6 {
   position: relative;
   flex: 2;
   margin: 5px;
 }
 
-#p7{
+#p7 {
   position: relative;
   flex: 1;
   margin: 5px;
@@ -169,30 +169,30 @@ img {
   padding: 5px 10px;
 }
 
-.about_content{
+.about_content {
   display: flex;
   flex-direction: column;
 }
 
-.sections{
+.sections {
   font-size: 20px;
   line-height: 1.8;
   margin: 5% 15% 0;
 }
 
-.main #birdhouse{
+.main #birdhouse {
   height: 20%;
   width: 20%;
   float: left;
   padding: 5px;
 }
 
-.main{
+.main {
   display: flex;
   flex-direction: column;
 }
 
-.history{
+.history {
   display: flex;
   flex-direction: column;
   font-size: 20px;
@@ -200,7 +200,7 @@ img {
   margin: 0 15%;
 }
 
-.grow{
+.grow {
   width: 100%;
   height: 320px;
   background-image: url("images/background-3.jpg");
@@ -210,26 +210,26 @@ img {
   justify-content: center;
 }
 
-.grow h1{
+.grow h1 {
   color: #F2F1E8;
 }
 
-.facilities{
+#facilities {
   flex-direction: column;
   font-size: 20px;
   line-height: 1.8;
   margin: 0 15%;
 }
 
-blockquote{
+blockquote {
   border-left: 2px solid #968772;
   padding-left: 20px;
 }
 
-article .history{
+article .history {
 }
 
-aside{
+aside {
   float: right;
   width: 20%;
   position: relative;
@@ -237,35 +237,35 @@ aside{
   font-size: 15px;
 }
 
-article .facilities{
+article .facilities {
 }
 
-.Monthly{
+.Monthly {
   display: flex;
   flex-direction: column;
   margin: 5% 15%;
 }
 
-table{
+table {
   border-collapse: collapse;
   font-size: 25px;
   border: 1px solid #131511;
 }
 
-tr:first-child{
-  background: #f2f1e8;
-}
-
-tr:last-child{
-  background: #f2f1e8;
-}
-
-td{
-  border: 1px solid #131511;
+table, tr, td, th{
+  border: 1px solid black;
   padding: 5px;
 }
 
-.newsletter{
+.shady{
+  background: #ffddaa;
+}
+
+.head{
+  border: 2px solid black;
+}
+
+.newsletter {
   height: 800px;
   background-image: url("images/background-2.jpg");
   background-size: cover;
@@ -276,7 +276,7 @@ td{
   align-items: center;
 }
 
-.signup{
+.signup {
   background: #FFFFFF;
   height: 35%;
   width: auto;
@@ -285,26 +285,24 @@ td{
   align-items: center;
   flex-direction: column;
   padding: 15px;
-
-
 }
 
-.title_mat{
+.title_mat {
   text-align: center;
 }
 
-.title_mat h2{
+.title_mat h2 {
   font-size: 30px;
   margin-bottom: 15px;
 }
 
-.title_mat h3{
+.title_mat h3 {
   font-size: 18px;
-  margin-bottom: 15px;font-weight: bold;
-
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
-input{
+input {
   color: #2B2F26;
   border-top: 1px solid #FFFFFF;
   border-left: 1px solid #FFFFFF;
@@ -315,11 +313,11 @@ input{
   line-height: 2em;
 }
 
-input:active{
+input:active {
   border-bottom: #967343;
 }
 
-button{
+button {
   border: 2px solid #968772;
   width: 130px;
   height: 50px;
@@ -329,12 +327,12 @@ button{
   font-size: 20px;
 }
 
-button: hover{
+button: hover {
   color: #FFFFFF;
   background: #967343;
 }
 
-footer{
+footer {
   height: 70px;
   width: 100%;
   border: 0;
